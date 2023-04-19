@@ -1,0 +1,21 @@
+package api.lang.string;
+
+import java.util.Scanner;
+
+public class StringIndexofQuiz {
+
+	public static void main(String[] args) {
+		
+		System.out.println("전체 문장을 입력해주세요.");
+		Scanner scan = new Scanner(System.in);
+		String sc = scan.next();
+		
+		System.out.println("찾을 단어를 입력해주세요.");
+		String s = scan.next();
+		
+		sc.indexOf(s);
+		System.out.println(sc.indexOf(s));
+
+	}
+
+}

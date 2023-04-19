@@ -1,0 +1,11 @@
+package api.lang.object;
+
+public class ObjectInformation {
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "ObjectInformation 객체 정보는 숨겨져 있습니다.";
+	}
+	
+}

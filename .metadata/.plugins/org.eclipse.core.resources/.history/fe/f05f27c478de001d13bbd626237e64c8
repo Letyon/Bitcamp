@@ -1,0 +1,14 @@
+package api.lang.string;
+
+public class StringTrim {
+	
+	public static void main(String[] args) {
+		
+		String trimBefore = "    ㅇㅇ    ";
+		System.err.println(trimbefore);
+		String trimAfter = trimBefore.trim();
+		System.out.println(trimAfter);
+	
+	}
+
+}

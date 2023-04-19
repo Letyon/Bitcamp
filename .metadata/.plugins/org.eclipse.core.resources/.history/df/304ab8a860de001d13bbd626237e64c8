@@ -1,0 +1,17 @@
+package api.lang.string;
+
+import java.util.Scanner;
+
+public class StringIndexofQuiz {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		String sc = scan.next();
+		
+		sc.indexOf("가나다", 0);
+		System.out.println(sc.indexOf(0));
+
+	}
+
+}

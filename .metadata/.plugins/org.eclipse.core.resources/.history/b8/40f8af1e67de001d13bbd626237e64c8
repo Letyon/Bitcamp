@@ -1,0 +1,35 @@
+package api.lang.string;
+
+import java.util.Scanner;
+
+public class StringIndexofQuiz {
+
+	public static void main(String[] args) {
+		int sum = 0;      // 감지 횟수
+		int lastIdx = 0;  // 마지막으로 조회된 인덱스
+		int result = 0;   // 결과 인덱스
+		boolean flag = true;  // 반복 조회 실행 여부
+		
+		System.out.println("전체 문장을 입력해주세요.");
+		Scanner scan = new Scanner(System.in);
+		String sc = scan.next();
+		
+		System.out.println("찾을 단어를 입력해주세요.");
+		String s = scan.next();
+
+		while(flag) {
+			// 타켓 단어를 마지막으로 감지된 번호로 조회
+			sum = sc.indexOf(0, lastIdx);
+			if(result == -1) {
+				System.out.println("단어 찾기 종료");
+				flag = false;
+			}else {
+				System.out.println("단어 감지 인덱스 : " + result);
+				lastIdx = (result + 1);
+				sum += 1;
+			}
+		}
+		System.out.println();
+	}
+
+}

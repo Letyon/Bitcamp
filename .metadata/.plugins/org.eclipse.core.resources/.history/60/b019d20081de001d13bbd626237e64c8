@@ -1,0 +1,14 @@
+package api.lang.stringb;
+
+public class StringBuilderExample {
+	
+	public static void main(String[] args) {
+		// StringBuffer로 대체 가능
+		StringBuilder sb = new StringBuilder("java");
+		
+		// 문자열을 끝에 추가하는 메서드 append()
+		sb.append(" Program Study");
+		System.out.println(sb);
+	}
+
+}
